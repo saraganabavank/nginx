@@ -11,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
 apiVersion: v1
 kind: Service
 metadata: # kpt-merge: /my-nginx-svc
@@ -23,7 +22,7 @@ metadata: # kpt-merge: /my-nginx-svc
 spec:
   type: LoadBalancer
   selector:
-    app: nginx
+    app: my-nginx
   ports:
     - protocol: TCP
       port: 80
