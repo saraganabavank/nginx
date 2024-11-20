@@ -5,15 +5,15 @@ metadata:
 upstream:
   type: git
   git:
-    repo: https://github.com/GoogleContainerTools/kpt
-    directory: /package-examples/nginx
+    repo: https://github.com/saraganabavank/nginx
+    directory: /
     ref: v0.9
   updateStrategy: resource-merge
 upstreamLock:
   type: git
   git:
-    repo: https://github.com/GoogleContainerTools/kpt
-    directory: /package-examples/nginx
+    repo: https://github.com/saraganabavank/nginx
+    directory: /
     ref: package-examples/nginx/v0.9
     commit: b9ea0bca019dafa9f9f91fd428385597c708518c
 info:
